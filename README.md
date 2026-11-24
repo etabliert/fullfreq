@@ -6,15 +6,15 @@
  * python 3.10+   
  * decent-ish GPU (although you could do use_gpu=False in makeFreq)
  * you need a big dataset like fineweb 2 data as jsonl for example (getData_de.py downloads the deu_Latn of fineweb-2, 50k pages)
- * you need stanza, tqdm (everything else is python standart library)
+ * you need stanza, spacy, tqdm (everything else is python standart library)
 
 ## setup
 * make sure you have [python](https://www.python.org/) installed <br>
-* run to install:     `` pip install stanza tqdm `` <br>
+* run to install:     `` pip install stanza spacy tqdm`` <br>
 * run to get data: `` python getData_de.py `` (this creates the file fineweb_data_de.jsonl) <br>
 
 ## run
-* then scan the data: `` python makeFreq_de.py `` <br> (this might take quite a while, about 40-60 minutes for me on rtx 2060 for 50k pages)
+* then scan the data: `` python makeFreq_de.py `` <br> (this might take quite a while, about 40-50 minutes for me on rtx 2060 for 50k pages)
 
 ## output
 the output (word_frequency_de.csv) should look something like this:
