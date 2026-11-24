@@ -14,10 +14,10 @@
 * run to get data: `` python getData_de.py `` (this creates the file fineweb_data_de.jsonl) <br>
 
 ## run
-* then scan the data: `` python makeFreq_de.py `` <br> (this might take quite a while, about 40-50 minutes for me on rtx 2060 for 50k pages)
+* then scan the data: `` python makeFreq_de.py `` <br> (this might take quite a while, about 25 minutes for me on rtx 2060 for 50k pages)
 
 ## output
-the output (word_frequency_de.csv) should look something like this:
+the output (word_frequency_de.csv) should look something like this (might need to be cleaned up):
 ```
 word,upos,count
 der,DET,637044
