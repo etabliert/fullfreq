@@ -1,1 +1,5 @@
-fineweb_data_de.jsonl
+.venv/
+fineweb_data_*.jsonl
+word_frequency_*.csv
+myenv
+.vscode
